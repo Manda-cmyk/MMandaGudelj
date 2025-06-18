@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.link-box {
+  display: inline-block;
+  width: 120px;
+  height: 80px;
+  background-color: #e57373; /* crvenkasta */
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  text-decoration: none;
+  border: 1px solid #b71c1c;
+  font-weight: bold;
+}
+
+.bottom-link {
+  margin-top: 50px;
+  margin-left: 10px;
+}
